@@ -5,8 +5,8 @@ import sys , os
 import urllib.request
 
 try:
-	os.system("figlet infoGather") #created  in exception for some users where figlet isnot present
-except:
+	os.system("infoGather") #created  in exception for some users where figlet isnot present
+except:	
 	pass
 print(f"\nversion: v1.2")
 try:
